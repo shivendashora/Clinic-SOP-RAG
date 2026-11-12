@@ -1,0 +1,11 @@
+﻿# Requires Python 3.12 (3.14 wheels such as pydantic_core are blocked by Windows Smart App Control)
+# Setup: py -V:3.12 -m venv .venv312 ; .\.venv312\Scripts\pip install -r requirements.txt
+python-dotenv
+numpy
+langchain
+langchain_community
+pymupdf
+langchain_text_splitters
+sentence-transformers
+chromadb
+langchain-groq
